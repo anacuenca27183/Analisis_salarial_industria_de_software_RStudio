@@ -129,6 +129,21 @@ Además, hay puestos con una gran presencia de datos extremos (puntos a la derec
 
 ## 1.2.3 Análisis por nivel educativo
 
+*** Anexar imagen de la gráfica de mediana salarial por nivel educativo ***
+
+
+Como puede observarse en la gráfica anterior, el nivel educativo influye positivamente en el nivel de ingreso, es decir aquellos empleados con doctorado, maestría o titulo universitario son los que reciben mayores sueldos (la mediana salarial se encuentra entre 75,000 USD y cerca de 90,000 USD). Esto podría relacionarse con los salarios por tipo de puesto en dónde al tener mayor especialización y roles con habilidades específicas se gana un sueldo mayor. Por otro lado, aquellos que cuentan con nivel secundaria, otros y primaria tienen sueldos menores a los 50,000 USD. Por lo que se sugeriría a los interesados en trabajar en la industria tecnológica continuar con su formación y especialización, especialmente en aquellas áreas con mayores salarios (Nube, Ciberseguridad, Machine Learning e IA). 
+
+## 1.2.4 Análisis por años de experiencia 
+
+Dentro del análisis de la variable años de experiencia se encontraron datos con 100 años de experiencia, estos datos se consideran como errores en su captura, ya que la media de años de experiencia es de 13.45, el promedio de 11 y el 75% de los encuestados cuentan con 20 o menos años de experiencia laboral. Para corregir estas inconsistencias, establecerémos como tope realista de 50 años de experiencia, así una persona que empezó a laborar a los 15 podría tener 65 años en la actualidad y seguir trabajando o encontrarse retirado pero laborando. Esta corrección no tuvo gran impacto en las medidas de tendencia central, pero sí ofrece una visión realista del panorama laboral. 
+
+
+
+*** Anexar gráfico de mediana salarial por años de experiencia *** 
+
+
+
 
 
 
