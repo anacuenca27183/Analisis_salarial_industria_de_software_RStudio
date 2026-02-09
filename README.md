@@ -122,9 +122,14 @@ Las tres medianas salariales más altas son: gerente de ingeniería (116,015 USD
 
 *** Anexar Bloxplot de la distribución salarial por tipo de puesto ***
 
-Por otro lado, la gráfica de cajas nos muestra el grado de distribución de cada puesto, se ordenaron de mayor a menos salario. En este sentido, no hay mucha diferencia con los mejor y peor pagados señalados en la gráfica anterior, pero si podemos observar que aquellas boxplots más "anchas" muestran mayor diversidad en los salarios, por ejemplo: el ingeniero o analista financiero (con salarios entre los 20,000 USD y casi los 140,000 USD aprox.), ingeniero en Machine Learning e Intaligencia Artificial ( con salarios entre más de 20,000 USD y los 135,000 USD aprox.) y Ejecutivo Senior (con salarios entre los 40,000 USD y cerca de 170,000 USD aprox.). Por otro lado, los boxplots más "cortos" muestran menor diversidad salarial, por ejemplo: estudiantes (con sueldos por debajo de los 25,000 USD aprox.), investigadores académicos (entre 25,00 USD y los 65,000 USD aprox.), administrador de sistema (con sueltos entre los 25,00 USD y los 80,000 USD aprox.)
+Por otro lado, la gráfica de cajas nos muestra el grado de distribución de cada puesto, se ordenaron de mayor a menos salario. En este sentido, no hay mucha diferencia con los mejor y peor pagados señalados en la gráfica anterior, pero si podemos observar que aquellas boxplots más "anchas" muestran mayor diversidad en los salarios, por ejemplo: el ingeniero o analista financiero (con salarios entre los 20,000 USD y casi los 140,000 USD aprox.), ingeniero en Machine Learning e Intaligencia Artificial ( con salarios entre más de 20,000 USD y los 135,000 USD aprox.) y Ejecutivo Senior (con salarios entre los 40,000 USD y cerca de 170,000 USD aprox.). Por otro lado, los boxplots más "cortos" muestran menor diversidad salarial, por ejemplo: estudiantes (con sueldos por debajo de los 25,000 USD aprox.), investigadores académicos (entre 25,00 USD y los 65,000 USD aprox.), administrador de sistema (con sueldos entre los 25,00 USD y los 80,000 USD aprox.)
 
 Además, hay puestos con una gran presencia de datos extremos (puntos a la derecha de la caja), por ejemplo: desarrollador back-end, desarrollador full-stack, desarrollador front-end y estudiantes, lo que podría sugerir oportunidades lucrativas para ganar salarios mayores. En cuanto a la distribución de la media en general es equilibrada (heterogeneidad en nivel central), lo que no sugiere que haya un sesgo hacia mayores salarios en los puestos (salvo en casos como: el analista o ingeniero financiero y cientifico aplicado). 
+
+
+## 1.2.3 Análisis por nivel educativo
+
+
 
 
 * Codigo
