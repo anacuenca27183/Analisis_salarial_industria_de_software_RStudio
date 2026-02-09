@@ -79,7 +79,7 @@ A fin de asegurar que el análisis sea ordenado, confiable, reproducible y efect
 
 Los detalles presentes en la base de datos se irán corrigiendo conforme se avance en el análisis a fin de adaptar las modificaciones a cada variable.
 
-1.1 Analisis general del salario.
+# 1.1 Analisis general del salario.
 
 ** IMAGEN HISTOGRAMA CON OUTLIERS Y SUMMARY **
 
@@ -91,18 +91,29 @@ Como puede observarse el primer cuartil es igual a 38,171 USD y el tercer cuarti
 limite inferior = -85,465 USD (no relevante ya que no hay salarios negativos)
 limite superior = 244,233 USD (salarios superiores a este valor se considerarán como outliers y serán eliminados)
 
-Aplicando el tratamiento anterior la nueva media es de 71,929 USD y la mediana de 79,574, reduciendo así la diferencia entre ambas y generando una base de datos más homogenea para el analisis. 
+
+*** IMAGEN HISTOGRAMA SIN OUTLIERS ****
 
 
+Aplicando el tratamiento anterior la nueva media es de 71,929 USD y la mediana de 79,574, reduciendo así la diferencia entre ambas y generando una base de datos más homogenea para el analisis (vease la gráfica de arriba). A pesar del tratamiento, existe un sesgo a la derecha, ya que típicamente los salarios se comportan de esta forma, es decir, mucha gente gana salarios bajos o medianos y poca gente gana salarios altos. 
+
+# 1.2 Analisis por factores (País, Tipo de puesto, Nivel educativo, Años de experiencia, Modalidad e Industria. 
 
 
+## 1.2.1 Analisis por país
+
+Primero se define la nueva base de datos para eliminar NA de las variables a utilizar, posteriormente se definen las métricas a evaluar (promedios y medias del salario por país) y finalmente se genera la gráfica (se eligió la mediana para representar al trabajador "tipico" ya que este dato no se ve afectado ante rangos extremos). Sin embargo, cabe mencionar que este top tiene sus limitaciones, ya que la muestra para generar las medidas de tendencia central varía en gran medida, hay datos con n=1, hasta datos con n= 4,487. 
+
+*** Anexar gráfica del top de 15 paises con mediana salarial más alta) ***
+
+Cómo puede observarse los países mejor pagados son Suiza (136,392 USD), EE.UU.AA. (136,000 USD) e Israel (132,470 USD). La mayoría de salarios altos se encuentran en países europeos con medias salariales que rondan entre los 88,900 USD y los 136,00 USD. 
 
 
+*** Anexar gráfica del top de 15 países con mediana salarial más baja) ***
 
+Por otro lado, los 15 peores países pagados son La República Democrática de la Gente de Laos, Micronesia y Antigüa y Barbuda, con medias salariales de 1 USD (datos que podrían deberse a errores de captura). Asimismo, la mayoría de salarios corresponde a países que se encuentran en África, con medias salariales que rondan entre 1 USD y 2,822 USD. 
 
-
-
-
+## 1.2.2 Analisis por tipo de puesto 
 
 * Codigo
 * Visualizaciones 
