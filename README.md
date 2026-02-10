@@ -127,6 +127,8 @@ Por otro lado, la gráfica de cajas nos muestra el grado de distribución de cad
 Además, hay puestos con una gran presencia de datos extremos (puntos a la derecha de la caja), por ejemplo: desarrollador back-end, desarrollador full-stack, desarrollador front-end y estudiantes, lo que podría sugerir oportunidades lucrativas para ganar salarios mayores. Algo notorio es que, los puestos con salarios más altos no presentan tantos datos extremos, como el resto. En cuanto a la distribución de la media en general es equilibrada (heterogeneidad en nivel central), lo que no sugiere que haya un sesgo hacia mayores salarios en los puestos (salvo en casos como: el analista o ingeniero financiero y cientifico aplicado). 
 
 
+Nota: Las observaciones con valores faltantes en la variable “Puesto” fueron descartadas automáticamente por ggplot2 durante la generación del boxplot. Esto no afecta el cálculo de la distribución salarial por categoría, pero sí reduce el número total de casos considerados para el análisis.
+
 ## 1.2.3 Análisis por nivel educativo
 
 *** Anexar imagen de la gráfica de mediana salarial por nivel educativo ***
@@ -137,7 +139,6 @@ Como puede observarse en la gráfica anterior, el nivel educativo influye positi
 ## 1.2.4 Análisis por años de experiencia 
 
 Dentro del análisis de la variable años de experiencia se encontraron datos con 100 años de experiencia, estos datos se consideran como errores en su captura, ya que la media de años de experiencia es de 13.45, el promedio de 11 y el 75% de los encuestados cuentan con 20 o menos años de experiencia laboral. Para corregir estas inconsistencias, establecerémos como tope realista de 50 años de experiencia, así una persona que empezó a laborar a los 15 podría tener 65 años en la actualidad y seguir trabajando o encontrarse retirado pero laborando. Esta corrección no tuvo gran impacto en las medidas de tendencia central, pero sí ofrece una visión realista del panorama laboral. 
-
 
 
 *** Anexar gráfico de mediana salarial por años de experiencia *** 
@@ -152,6 +153,24 @@ REVISAR CON MÁS DETALLE
 *** Anexar gráfica de salarios medios por modalidad laboral *** 
 
 Los trabajos reomotos tienen la media salarial más alta (mayores a 80,000 USD), le sigue la modalidad hibrida (con tendencia a flexible) con salarios cercanos a los 80,000 USD. Aquellos trabajos de libre elección tienen una media salarial cercana a los 75,000 USD y los hibridos (con tendencia a presencial) cerca de los 70,000 USD. Algo muy notorio, es la diferencia existente con los salarios de modalidad presencial que son menores a los 45,000 USD. 
+
+*** Anexar gráfica BOXPLOT  de salarios por modalidad laboral ***
+
+Lo anterior se comprueba al visualizar la distribución salarial de cada modalidad laboral, la media del trabajo remoto es superior al resto, las opciones hibridas y libres en puntos intermedios y la presencial es la categoría con menor media salarial. Asimismo, podemos observar que el trabajo remoto tiene mayor variación salarial. El rango salarial central para la modalidad hibrida con tendencia a presencial se encuentra aproximadamente entre 40,000 USD y 105,000 USD, para hibrido con tendencia a flexible entre 45,000 USD y 115,000 USD aprox., para aquellos que trabajan con libre elección entre 45,000 USD y 110,000 USD aprox., para los que trabajan presencialmente entre 25,000 USD y 85,000 USD aprox. y los que trabajan en remoto los salarios pueden ir desde los 40,000 USD cerca de 140,000 USD aprox., aunque para cada categoría debe tenerse en cuenta los valores extremos que sugieren oportunidades laborales con mayores ingresos. 
+
+Siguiendo con lo anterior, aunque se eliminaron los outliers de la variable salario (se realizó al inicio del analsis), las categorias hibridas, libre elección y presencial cuentan con personas con salarios significativamente más altos respecto al resto del grupo, es decir, existe mayor variabilidad salarial interna (que podría deberse a puestios senior), por otro lado, los puestos remotos no presentan valores extremos, lo que sugiere una distribución salarial más uniforme y consistente entre quienes trabajan completamente a distancia. 
+
+
+## 1.2.6 Analisis por tipo de industria 
+
+*** Anexar gráfica de salario promedio por tipo de industria *** 
+
+Como puede observarse la industria mejor pagada es la de seguros con una media salarial mayor a los 95,000 USD anuales, le siquen el sector de tecnología, energia y salud con salarios superiores a los 85,000 USD y menores a los 88,000 USD aprox. (sectores relacionados con una alta demanda de perfiles técnicos y a una fuerte inversión en infraestructura digital, lo que contribuye a sus niveles salariales competitivos). Los dos sectores peor pagados son educación superior y desarrollo de software con salarios menores a los 67,500 USD, el resto de industrias se encuentra con salarios entre los 75,000 USD y los 82,500 USD aprox.
+
+
+
+
+
 
 * Codigo
 * Visualizaciones 
