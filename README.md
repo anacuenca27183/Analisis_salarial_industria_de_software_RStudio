@@ -1,105 +1,122 @@
-# Analisis salarial de la industria tecnológica 2025
+# Analisis salarial de la industria tecnológica - 2025
 
 ## Resumen del proyecto
 
 ### Objetivo principal: 
-El objetivo es comprender cómo varían los salarios según: el país, tipo de puesto, nivel educativo, años de experiencia, modalidad laboral e industria.
+
+Comprender cómo varían los salarios de los desarrolladores según: el país, tipo de puesto, nivel educativo, años de experiencia, modalidad laboral e industria.
 
 ### Objetivos secundarios:
-1. Explorar la distribución general del salario de la industria tecnológica.
-2. Comparar salarios por país y evaluar posibles brechas regionales.
-3. Estudiar diferencias salariales por tipo de puesto del desarrollador.
-4. Analizar la relación entre nivel educativo y salario.
-5. Examinar el impacto de la experiencia laboral en el salario.
-6. Evaluar los salarios por industria y modalidad laboral.
+1. Explorar la distribución general del salario en el sector tecnológico.
+2. Comparar salarios por país y evaluar brechas regionales.
+3. Analizar diferencias salariales por tipo de puesto del desarrollador.
+4. Evaluar la relación entre nivel educativo y salario.
+5. Examinar el impacto de la experiencia laboral en los ingresos.
+6. Estudiar el comportamiento salarial por modalidad laboral e industria.
 
 ## Sobre la base de datos de Stack Overflow:
 
-Encuesta anual para desarrolladores del 2025 de Stack Overflow, presenta una visualización de las necesidades de la comunidad global de desarrolladores. En esta quinta edición se registraron más de 49,000 respuestas de 177 países y un nuevo enfoque en herramientas de Inteligencia Artificial, LLM y plataformas comunitarias.
+La **Ecuesta Anual para Desarrolladores 2025** de Stack Overflow, recopila información sobre las tendencias, herramientas y condiciones laborales de la comunidad global de desarrolladores. En esta edición se registraron más de 49,000 respuestas de 177 países, con un nuevo enfoque en herramientas de Inteligencia Artificial, modelos de lenguaje y plataformas comunitarias.
 
-Se Compuesta de sesenta y dos preguntas, se centra en cinco temas:
-1. Perfil de los desarrolladores (edad, país de origen, educación, experiencia, tipo de empleo, etc.)
-2. Tecnología (lenguaje de programación, desarrollo en la nube, tecnologías web, etc.)
-3. Inteligencia Artificial (sentimiento y uso, herramientas para desarrolladores, agentes de IA)
-4. Trabajo (salario, situación laboral, información de la empresa, modalidad laboral, etc.)
-5. Uso del sitio Stack Overflow (cuenta activa, antigüedad, frecuencia de visita, etc.)
+La encuesta consta de 62 preguntas distribuidas en cinco ejes temáticos:
 
-Liga de consulta: [Consulta aquí](https://survey.stackoverflow.co/) 
+1. **Perfil del desarrollador:** edad, país de origen, educación, experiencia, tipo de empleo, etc.
+2. **Tecnología:** lenguaje de programación, desarrollo en la nube, tecnologías web, etc.
+3. **Inteligencia Artificial:** sentimiento y uso, herramientas para desarrolladores, agentes de IA, etc.
+4. **Trabajo:** salario, situación laboral, información de la empresa, modalidad laboral, etc.
+5. **Uso del sitio Stack Overflow:** cuenta activa, antigüedad, frecuencia de visita, etc.
+
+Fuente oficial: [Stack Overflow Survey](https://survey.stackoverflow.co/) 
 
 ## Descripción del proyecto:
 
-Tipo de investigación: Cuantitativa, enfocada a medir, evaluar tendencias y realizar reportes. Se centra en los datos duros e información que pueda contabilizarse. 
+**Tipo de investigación:**
 
-Tipo de análisis: Exploratorio: A fin de conocer las relaciones entre el salario y el país, tipo de puesto del desarrollador, nivel educativo, años de experiencia, modalidad laboral e industria se examinó la información para identificar patrones, formular algúnas hipótesis para proyectos futuros y la propuesta de alternativas para resolver problemas específicos. 
+Cuantitativa, enfocada a medir tendencias y analizar los datos objetivos para elaborar reportes y proponer hipótesis futuras.
 
-## Herramienta de análisis de datos utilizado: 
+**Tipo de análisis:**
+
+Exploratorio (EDA). Tiene como fin identificar patrones y relaciones entre el salario y distintas variables (país, tipo de puesto del desarrollador, nivel educativo, años de experiencia, modalidad laboral e industria).
+
+## Herramientas utilizadas: 
 
 RStudio: Elegida por su precisión estadística y gráficos potentes. 
 
-Librerías utilizadas:
+Librerías principales:
 * dplyr
 * ggplot2
 * tidyr
 * readr
+* dplyr
+* scales
   
 ## Metodología implementada: 
 
-A fin de asegurar que el análisis sea ordenado, confiable, reproducible y efectivo se eligió la metodología tradicional del análisis de datos, la cual, en general, se compone de las siguientes etapas:
+A fin de asegurar que el análisis sea ordenado, reproducible y tecnicamente confiable, se eligió la metodología tradicional del análisis de datos, con las siguientes etapas:
 
-* Definición del problema
+1. Definición del problema
 * Carga de datos
   * Selección de variables relevantes
-* Inspección, limpieza y preparación de la base:
-  * Eliminación de na,
-  * Outliers (Método Tukey),
-  * Datos inválidos,
-  * Homogenización de la base de datos y
-  * Estandarización de categorías
-* Análisis exploratorio de datos (EDA)
-  * Histogramas
-  * Boxplots
-  * Density plot
-  * Análisis de asimetría y outliers
-  * ANOTAR LAS PREGUNTAS A RESPONDER... 
-* Aplicación de técnicas estadísticas o modelos
-* Interpretación y comunicación de resultados
+2. Inspección, limpieza y preparación:
+  * Eliminación de valores faltantes (NA)
+  * Detección y tratamiiento de outliers mediante el **método de Tukey**
+  * Depuración de datos inválidos
+  * Homogenización y estandarización de categorías
+3. Análisis exploratorio de datos (EDA)
+  * Histogramas y distribuciones
+  * Boxplots comparativos
+  * Análisis de asimetría, dispersión y outliers 
+4. Aplicación de técnicas estadísticas
+5. Interpretación y comunicación de resultados
+  * Redacción final del análisis, visualización y conclusiones
 
-## Analisis de datos: 
+## Resultados principales : 
 
 
 1. Carga de base de datos y revisión general.
 
-*** IMAGEN ***
+<img width="785" height="422" alt="1" src="https://github.com/user-attachments/assets/2f234211-4333-425a-b89f-ab62e7ac0e50" />
 
-- Las variables tienen el formato correcto.
-- Los nombres de las variables están homologadas, es decir, no hay presencia de etiquetas atípicas
-- Hay presencia de "NA" en la base
-- Hay presencia de datos atípicos que cesgan el promedio, específicamente en la variable salario, con valores cercanos a los 50,000,000 USD
-- Hay existencia de datos ilógicos, específicamente en años de experiencia, se indica que hay valores cercanos a los 100 años
 
-Los detalles presentes en la base de datos se irán corrigiendo conforme se avance en el análisis a fin de adaptar las modificaciones a cada variable.
+- Las variables tienen el formato adecuado.
+- Hay que modificar los nombres de las columnas a fin de facilitar su manejo.
+- Se observa presencia de datos faltantes ("NA").
+- Existen datos atípicos que cesgan distorcionan las medidas de tendencia central, especialmente en la variable salario, donde se registran montos cercanos a los 50,000,000 USD.
+- También se detectan valores ilógicos, como años de experiencia cercanos a 100 años.
+
+Estos problemas se corregirán de forma progresiva, adaptando los tratamientos según lo requieran las características de cada variable.
 
 # 1.1 Analisis general del salario.
 
-** IMAGEN HISTOGRAMA CON OUTLIERS Y SUMMARY **
 
-De acuerdo con la revisión de las metricas de tendencia central y del histograma, hay presencia de datos extremos que están cesgando la media. El 75% de los encuestados ganan menos de 120,596 USD, sin embargo, el valor máximo mostrado es de 50,000,000 USD. Los datos extremos del salario están generándo que la media sea alrededor de 101 mil USD, mientras que la mediana es de 75 mil USD. Por lo que se requiere aplicar el método IQR de Tukey, útil para definir los límites inferior y superior a partir de los cuales un valor se considera outlier.
+<img width="940" height="497" alt="2 histograma del salario anual con outliers" src="https://github.com/user-attachments/assets/96282017-264c-4f44-8358-9a94462b314c" />
 
-** IMAGEN **
-Como puede observarse el primer cuartil es igual a 38,171 USD y el tercer cuartil igual a 120,596 USD, dando como resultado un IQR igual a 82,425 USD. El cual nos permite definir los limites inferior y superior:
-
-limite inferior = -85,465 USD (no relevante ya que no hay salarios negativos)
-limite superior = 244,233 USD (salarios superiores a este valor se considerarán como outliers y serán eliminados)
+ 
+<img width="361" height="202" alt="3 summary salario" src="https://github.com/user-attachments/assets/381e124e-5bbe-420b-b2e4-304e26959068" />
 
 
-*** IMAGEN HISTOGRAMA SIN OUTLIERS ****
+El análisis del histograma y de las métricas de tendencia central revela la presencia de valores extremos que distorcionan la media. el 75% de los encuestados reporta ingresos menores a 120,596 USD; sin embargo, el salario máximo alcanza 50,000,000 USD. Estos valores extremos elevan la media a ~101,000 USD, mientras que la mediana se mantiene en 75,000 USD. Para mitigar este efecto, se aplica el método IQR de Tukey, que permite definir límites interior y superior a partir de los cuartiles:  
+
+* **Q1:** 38,171 USD
+* **Q3:** 120,596 USD
+* **IQR:** 82,425 USD
+
+Con ello se obtienen los límites:
+
+* **Límite inferior:** –85,465 USD (irrelevante, pues no existen salarios negativos)
+* **Límite superior:** 244,233 USD (valores superiores se consideran outliers y se eliminan)
+
+<img width="940" height="497" alt="4 histograma del salario anual" src="https://github.com/user-attachments/assets/83e6bb63-cb50-46e4-9d5e-fd3b37abdcf7" />
+
+<img width="940" height="497" alt="5 diagrama de caja del salario anual" src="https://github.com/user-attachments/assets/90b867fc-6432-47ff-8256-5353afe64ac2" />
 
 
-Aplicando el tratamiento anterior la nueva media es de 71,929 USD y la mediana de 79,574, reduciendo así la diferencia entre ambas y generando una base de datos más homogenea para el analisis (vease la gráfica de arriba). A pesar del tratamiento, existe un sesgo a la derecha, ya que típicamente los salarios se comportan de esta forma, es decir, mucha gente gana salarios bajos o medianos y poca gente gana salarios altos. 
+Tras el tratamiento, la nueva media se reduce a 71,929 USD y la mediana aumenta ligeramente a 79,574 USD, reduciendo la brecha entre ambas y generando una distribución más homogénea. No obstante, el salario conserva un sesgo positivo, típico de este tipo de variables: la mayoría de personas gana salarios bajos o medianos y pocos individuos reportan salarios altos (obvservese el histograma y el diagrama de caja).
 
-# 1.2 Analisis por factores (País, Tipo de puesto, Nivel educativo, Años de experiencia, Modalidad e Industria. 
+# 1.2 Analisis por factores 
 
-
+**(País, Tipo de puesto, Nivel educativo, Años de experiencia, Modalidad e Industria)**
+---
 ## 1.2.1 Analisis por país
 
 Primero se define la nueva base de datos para eliminar NA de las variables a utilizar, posteriormente se definen las métricas a evaluar (promedios y medias del salario por país) y finalmente se genera la gráfica (se eligió la mediana para representar al trabajador "tipico" ya que este dato no se ve afectado ante rangos extremos). Sin embargo, cabe mencionar que este top tiene sus limitaciones, ya que la muestra para generar las medidas de tendencia central varía en gran medida, hay datos con n=1, hasta datos con n= 4,487. 
@@ -166,6 +183,12 @@ Siguiendo con lo anterior, aunque se eliminaron los outliers de la variable sala
 *** Anexar gráfica de salario promedio por tipo de industria *** 
 
 Como puede observarse la industria mejor pagada es la de seguros con una media salarial mayor a los 95,000 USD anuales, le siquen el sector de tecnología, energia y salud con salarios superiores a los 85,000 USD y menores a los 88,000 USD aprox. (sectores relacionados con una alta demanda de perfiles técnicos y a una fuerte inversión en infraestructura digital, lo que contribuye a sus niveles salariales competitivos). Los dos sectores peor pagados son educación superior y desarrollo de software con salarios menores a los 67,500 USD, el resto de industrias se encuentra con salarios entre los 75,000 USD y los 82,500 USD aprox.
+
+*** Anexar boxplot del salario por industria ****
+
+A pesar de que la industria de seguros es la mejor pagada, su rango salarial no es tan amplio como en las industrias de tecnología y salud (lo que indica que las industrias pueden ofrecer oportunidades salariales más competitivas), sin embargo hay presencia de datos extremos en el sector de seguros que podrían indicar algunas oportunidades para ganar salarios más altos. Por otro lado, el sector energético, educación superior y transporte y cadenas de suministro tienen rangos salariales mas "cortos", aunque con mayor presencia de datos extremos, indicando posibles oportunidades con salarios mayores (aunque no forman parte de lo común en el sector).
+
+
 
 
 
