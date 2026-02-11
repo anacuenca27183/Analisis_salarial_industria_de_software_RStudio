@@ -260,6 +260,29 @@ A pesar de que la industria de seguros es la mejor pagada, el 75% de sus trabaja
 
 # Conclusiones generales 
 
+El análisis del panorama salarial en la industria tecnológica revela patrones consistentes que confirman la influencia de factores tradicionales en el nivel de ingreso. En primer lugar, el tipo de puesto del desarrollador influye en el salario percibido, aquellos puestos relacionados con mayores exigencias de expecialización o responsabilidad tienen los salarios más competitivos. Asimismo, el nivel educativo se posiciona como un determinante clave del salario: profesionistas con estudios universitarios, maestrías o doctorado presentan medianas salariales más altas, lo que señala la relevancia de la formación académica en este sector que está en constante evolución y es de alta especialización. 
+
+En cuanto a los años de experiencia, hay una relación positiva entre el salario y el tiempo laborado, especialmente en los primeros diez años, periodo en el que el crecimiento salarial es más acelerado. Aunque, posteriormente el salario se estabiliza en rangos entre los 90,000 USD y los 120,000 USD. 
+
+Respecto a la modalidad laboral, el trabajo remoto destaca de manera importante como la opción mejor remunerada, seguido de las modalidades híbridas o de libre elección. En contraste el trabajo presencial tiene un salario menor. 
+
+Finalmente, el tipo de industria introduce diferencias importantes: secotres como seguros, tecnología, energía y salud muestran salarios más competitivos, mientras que sectores como educación superior o desarrollo de software presentan los sueldos más bajos. Aún así, varios sectores presentan nichos con salarios superiores al promedio. 
+
+En este sentido, el salario no depende de un único factor, sino de la interacción de educación, experiencia, modalidad y tipo de industria. 
+
+# Recomendaciones generales
+
+1. Para los interesados en laborar en la industria tecnológica:
+  * Invertir en educación y especialización
+  * Dirigirse a áreas de especialización como Nube, IA y Machine Learning, Financiera, Ciberseguridad
+  * Acumular experiencia estratégica en los primeros 10 años
+  * Optar por modalidad flexibles o remotas
+    
+2. Para las empresas:
+  * Revisar las brechas salariales para retener al personal
+  * Ofrecer esquemas flexibles o hibridos
+  * Fomentar el desarrollo profesional interno
+
 
 
 
