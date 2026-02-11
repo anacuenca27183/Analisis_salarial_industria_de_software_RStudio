@@ -222,7 +222,7 @@ Entre los 45 y los 50 años de experiencia se presentan variaciones interesantes
 
 Nota: Las observaciones con valores faltantes ("NA") fueron filtradas de la gráfica.
 
-## 1.2.5 Análisis por modalidad laboral *** 
+## 1.2.5 Análisis por modalidad laboral
 
 <img width="967" height="551" alt="12 relacion entre años de experiencia y mediana salarial sin outliers" src="https://github.com/user-attachments/assets/df3f187c-92bd-48c0-ad55-7ac8f341c62f" />
 
@@ -247,13 +247,21 @@ Nota: Las observaciones con valores faltantes ("NA") fueron filtradas para el an
 
 ## 1.2.6 Analisis por tipo de industria 
 
-*** Anexar gráfica de salario promedio por tipo de industria *** 
 
-Como puede observarse la industria mejor pagada es la de seguros con una media salarial mayor a los 95,000 USD anuales, le siquen el sector de tecnología, energia y salud con salarios superiores a los 85,000 USD y menores a los 88,000 USD aprox. (sectores relacionados con una alta demanda de perfiles técnicos y a una fuerte inversión en infraestructura digital, lo que contribuye a sus niveles salariales competitivos). Los dos sectores peor pagados son educación superior y desarrollo de software con salarios menores a los 67,500 USD, el resto de industrias se encuentra con salarios entre los 75,000 USD y los 82,500 USD aprox.
+<img width="967" height="551" alt="14 mediana salarial por tipo de industria son outliers" src="https://github.com/user-attachments/assets/479d2f28-6a3b-4965-ac8b-141fffa347ee" />
 
-*** Anexar boxplot del salario por industria ****
+Como puede observarse, la industria mejor pagada es la de seguros, con una mediana salarial superior a los 95,000 USD anuales. Le siguen los sectores de tecnología, energía y salud, con medianas que oscilan entre 85,000 USD y 88,000 USD aproximadamente. Estos sectores suelen asociarse con una alta demanda de perfiles técnicos y una fuerte inversión en infraestructura digital, factores que contribuyen a la competitividad salarial.
 
-A pesar de que la industria de seguros es la mejor pagada, su rango salarial no es tan amplio como en las industrias de tecnología y salud (lo que indica que las industrias pueden ofrecer oportunidades salariales más competitivas), sin embargo hay presencia de datos extremos en el sector de seguros que podrían indicar algunas oportunidades para ganar salarios más altos. Por otro lado, el sector energético, educación superior y transporte y cadenas de suministro tienen rangos salariales mas "cortos", aunque con mayor presencia de datos extremos, indicando posibles oportunidades con salarios mayores (aunque no forman parte de lo común en el sector).
+La mayoría de las industrias se situan entre los ~ 75,000 USD y los ~ 82,000 USD. Por otro lado, las industrias con menores salarios medianos son educación superior y desarrollo de software, ambas con valores inferiores a los ~ 67,500 USD. 
+
+<img width="967" height="551" alt="15 diagrama de cajas del salario por sector industrial sin outliers" src="https://github.com/user-attachments/assets/744960cf-e5fc-4a0e-af20-ff92ca025655" />
+
+A pesar de que la industria de seguros es la mejor pagada, el 75% de sus trabajadores tienen un salario por debajo de los ~ 130,000 USD, en cambio las industrias de la salud y tecnológica tiene al 75% de sus trabajadores por debajo de los ~ 135,000 USD (y sin presencia de valores extremos). Por otro lado, los sectores con menores medianas salariales se encuentran manufactura, desarrollo de software y educación superior con salarios menores para el 75% de sus empleados de ~ 119,000 USD, ~ 119,500 USD y ~ 95,000 USD. Estos sectores aunque tienen las medianas salariales más bajas, también presentan valores extremos considerables, indicando posibles oportunidades laborales con salario mayores, asociados a cargos especializados. 
+
+# Conclusiones generales 
+
+
+
 
 
 
