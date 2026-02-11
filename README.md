@@ -224,7 +224,8 @@ Nota: Las observaciones con valores faltantes ("NA") fueron filtradas de la grá
 
 ## 1.2.5 Análisis por modalidad laboral
 
-<img width="967" height="551" alt="12 relacion entre años de experiencia y mediana salarial sin outliers" src="https://github.com/user-attachments/assets/df3f187c-92bd-48c0-ad55-7ac8f341c62f" />
+<img width="967" height="551" alt="11 mediana salarial por modalidad laboral son outliers" src="https://github.com/user-attachments/assets/b36c1998-1017-40d5-a304-edb054e48f36" />
+
 
 Los trabajos reomotos tienen la mediana salarial más alta con valores superiores a los 80,000 USD anuales. Le siguen los esquemas híbridos con tendencia a flexible cuyos salarios se apróximan a los 80,000 USD.
 
