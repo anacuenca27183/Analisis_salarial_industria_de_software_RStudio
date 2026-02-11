@@ -191,23 +191,46 @@ Por otro lado, aquellos que cuentan con nivel secundaria, otros y primaria tiene
 
 Por lo que se sugeriría a los interesados en trabajar en la industria tecnológica continuar con su formación y especialización, especialmente en aquellas áreas con mayores salarios (Nube, Ciberseguridad, Machine Learning e IA). 
 
+Nota: Las observaciones con valores faltantes ("NA") fueron filtradas de la gráfica.
+
 ## 1.2.4 Análisis por años de experiencia 
 
-Dentro del análisis de la variable años de experiencia se encontraron datos con 100 años de experiencia, estos datos se consideran como errores en su captura, ya que la media de años de experiencia es de 13.45, el promedio de 11 y el 75% de los encuestados cuentan con 20 o menos años de experiencia laboral. Para corregir estas inconsistencias, establecerémos como tope realista de 50 años de experiencia, así una persona que empezó a laborar a los 15 podría tener 65 años en la actualidad y seguir trabajando o encontrarse retirado pero laborando. Esta corrección no tuvo gran impacto en las medidas de tendencia central, pero sí ofrece una visión realista del panorama laboral. 
+Durante la inspección de la variable *años de experiencia*, se identificaron observaciones con valores extremos cercanos a los **100 años**, los cuales son irrealistas desde una perspectiva laboral y, por tanto se consideraron como errores de captura. Dado que la media de experiencia es de 13.45 años y la mediana de 11 años, además el 75% de los encuestados reportaron tener 20 años o menos de experiencia. 
+
+Por lo anterior, se definió un umbral razonable de **50 años de experiencia.** Este valor representa un límite conservador, pues una persona que haya iniciado su vida laboral alrededor de los 15 años podría, en casos excepcionales, acumular 50 años de trayectoria y continuar trabajando. La corrección tuvo un impacto mínimo en las medidas de tendencia central, pero permitió depurar la distribución y ofrecer una visión realista del panorama laboral. 
+
+<img width="967" height="551" alt="11 relacion entre años de experiencia y mediana salarial sin outliers" src="https://github.com/user-attachments/assets/9916504b-5835-4d18-88ef-a29e256c3739" />
+
+El gráfico muestra una relación positiva entre la experiencia laboral y la medicana salarial al menos en los primeros años. Destaco cuatro puntos importantes:
 
 
-*** Anexar gráfico de mediana salarial por años de experiencia *** 
+**1. Crecimiento acelerado durante los primeros 10 años**
 
-Enla gráfica podemos observar que a medida que la experiencia aumenta, también lo hace la mediana salarial. Así la práctica y la especialización progresiva aportan un valor significativo al perfil profesional. Los primeros 10 años muestran un aumento salarial rápido pasándo de salarios de 20,000 USD hasta salarios cercanos a los 80,000 USD. Posteriormente, entre los 10 y 15 años de experiencia, el crecimiento salarial continúa pero a un ritmo más moderado y con fluctuaciones, teniendo salarios de 80,000 USD hasta salarios cercanos a los 90,000. Sin embargo, a partir de los 20 años de experiencia el salario comienza a estabilizarse e incluso puede mostrar desaceleración, manteniendo salarios entre los 90,000 USD y los 120,000 USD. Esto sugiere que, en la industria tecnológica, el mayor impacto salarial se obtiene durante los primeros años de carrera, mientras que después de cierto punto el incremento se suaviza y se mantiene. No obstante, entre los 45 y los 50 años de experiencia se presentan variaciones interesantes, hay medianas salariales de 75,000 USD aprox. pero tambi+en salarios cercanos a los 140,000 USD, esto podría deberse a situaciones en las que las personas eligen retirarse "formalmente" del trabajo y realizan labores eventuales (salarios bajos) o a puestos Senior o Expert (salarios altos).  
+Entre los 0 y los 10 años de experiencia, la mediana salarial aumenta de manera pronunciada, pasando de valores cercanos a los 20,000 USD a aproximadamente 80,000 USD. Este intervalo muestra el aumento más rápido, asociado a la adquisicón de habilidades fundamentales. 
+**2. Crecimiento moderado despues de los 10 a 15 años**
 
+El crecimiento salarial continúa pero a un ritmo más moderado y con fluctuaciones, teniendo medianas salariales de 80,000 USD y hasta proximos a los 90,000. Lo cual conicidiría con el paso a roles senior o especializados. 
+
+**3. Estabilización y desaceleración a partir de los 20 años**
+
+A partir de los 20 años de experiencia el salario comienza a estabilizarse e incluso puede mostrar desaceleración, manteniendo medianas salariales entre los 90,000 y los 120,000 USD. Esto sugiere que, en la industria tecnológica, el mayor impacto salarial se obtiene durante los primeros años de carrera, mientras que después de cierto punto el incremento se suaviza y se mantiene. 
+
+
+**4. Variabilidad elevada en los rangos altos de experiencia**
+
+Entre los 45 y los 50 años de experiencia se presentan variaciones interesantes, hay medianas salariales de 75,000 USD aprox. pero también medianas salariales cercanas a los 140,000 USD. Lo anterior, podría deberse a situaciones en las que las personas eligen retirarse "formalmente" del trabajo y realizan labores eventuales (salarios bajos) o a puestos Senior o Expert (salarios altos).  
+
+Nota: Las observaciones con valores faltantes ("NA") fueron filtradas de la gráfica.
 
 ## 1.2.5 Análisis por modalidad laboral *** 
 
-REVISAR CON MÁS DETALLE
+<img width="967" height="551" alt="12 relacion entre años de experiencia y mediana salarial sin outliers" src="https://github.com/user-attachments/assets/df3f187c-92bd-48c0-ad55-7ac8f341c62f" />
 
-*** Anexar gráfica de salarios medios por modalidad laboral *** 
+Los trabajos reomotos tienen la mediana salarial más alta con valores superiores a los 80,000 USD anuales. Le siguen los esquemas híbridos con tendencia a flexible cuyos salarios se apróximan a los 80,000 USD.
 
-Los trabajos reomotos tienen la media salarial más alta (mayores a 80,000 USD), le sigue la modalidad hibrida (con tendencia a flexible) con salarios cercanos a los 80,000 USD. Aquellos trabajos de libre elección tienen una media salarial cercana a los 75,000 USD y los hibridos (con tendencia a presencial) cerca de los 70,000 USD. Algo muy notorio, es la diferencia existente con los salarios de modalidad presencial que son menores a los 45,000 USD. 
+La modalidad de libre elección muestra una media cercana a los 75,000 USD, mientras que los esquemas híbridos con tendencia a presencial se ubican alrededor de los 70,000 USD.
+
+Finalmente, la modalidad presencial presenta los salarios más bajos, con medias por debajo de los 45,000 USD, marcando una diferencia notable respecto al resto de las modalidades. 
 
 *** Anexar gráfica BOXPLOT  de salarios por modalidad laboral ***
 
@@ -215,6 +238,7 @@ Lo anterior se comprueba al visualizar la distribución salarial de cada modalid
 
 Siguiendo con lo anterior, aunque se eliminaron los outliers de la variable salario (se realizó al inicio del analsis), las categorias hibridas, libre elección y presencial cuentan con personas con salarios significativamente más altos respecto al resto del grupo, es decir, existe mayor variabilidad salarial interna (que podría deberse a puestios senior), por otro lado, los puestos remotos no presentan valores extremos, lo que sugiere una distribución salarial más uniforme y consistente entre quienes trabajan completamente a distancia. 
 
+Nota: Las observaciones con valores faltantes ("NA") fueron filtradas de la gráfica.
 
 ## 1.2.6 Analisis por tipo de industria 
 
